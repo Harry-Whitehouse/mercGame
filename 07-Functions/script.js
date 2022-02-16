@@ -64,7 +64,7 @@ function sellItem(quantity) {
         quantity = stock;
         balance += stock * price;
         console.log(
-            "insuficient stock",
+            "insuficient stock.",
             quantity,
             "units sold. remaining stock",
             quantity - stock,
